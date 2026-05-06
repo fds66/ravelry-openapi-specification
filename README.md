@@ -13,6 +13,12 @@ An OpenAPI 3.1 specification for the [Ravelry API](https://www.ravelry.com/api),
 go install github.com/cxd309/simple-file-server@latest
 ```
 
+Setup the Python environment with uv:
+
+```bash
+uv sync
+```
+
 ## Generate
 
 Parse `api_documentation.html` and write `docs/openapi.json`:
